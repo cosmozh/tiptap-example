@@ -1,29 +1,39 @@
-# tiptap-example
+# Initialize Editor using Tiptap
 
-This template should help get you started developing with Vue 3 in Vite.
+Get Started
 
-## Recommended IDE Setup
+1. clone repository
+2. npm install
+3. npm run serve
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## npm Setup Process
 
-## Customize configuration
+1. Install Tiptap
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+```jsx
+npm install @tiptap/vue-2
 
-## Project Setup
-
-```sh
-npm install
+npm install tiptap-extension
 ```
 
-### Compile and Hot-Reload for Development
+1. Install Sass
 
-```sh
-npm run dev
+```jsx
+npm install sass
+
+npm install sass-loader
 ```
 
-### Compile and Minify for Production
+1. Install Fontawesome
 
-```sh
-npm run build
+```jsx
+npm i --save @fortawesome/fontawesome-svg-core
+
+npm i --save @fortawesome/vue-fontawesome
+
+npm i --save @fortawesome/free-solid-svg-icons
+
+npm i --save @fortawesome/free-regular-svg-icons
+
+npm i --save @fortawesome/free-brands-svg-icons
 ```
